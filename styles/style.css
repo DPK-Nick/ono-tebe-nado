@@ -61,9 +61,7 @@ main {
   .cover {
     position: relative;
     padding: 165px 50px 50px 50px;
-    background-image: url(../images/cover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../images/cover.jpg) no-repeat center/cover;
   }
   
   .cover__title {
@@ -130,7 +128,6 @@ main {
     line-height: 1;
     text-transform: uppercase;
     background-color: transparent;
-    cursor: pointer;
   }
   
   .bet-button:hover {
