@@ -11,7 +11,7 @@ main {
   
   .header {
     display: grid;
-    grid-template-columns: 1.51fr 2fr 1.5fr;
+    grid-template-columns: 1.51fr 3fr 1.5fr;
     align-items: center;
     padding: 92px 51px 89px;
   }
@@ -25,7 +25,7 @@ main {
     list-style: circle;
   }
   
-  .header__links-list-item_no-bullit {
+  .header__links-list-item_no {
     list-style: none;
   }
   
