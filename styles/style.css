@@ -166,9 +166,9 @@ main {
   }
   
   .lost__card-list-item {
-    min-height: 440px;
+    min-height: 420px;
     flex-grow: 1;
-    width: 340px;
+    width: 330px;
   }
   
   .card {
