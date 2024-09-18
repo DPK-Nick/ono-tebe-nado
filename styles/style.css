@@ -156,6 +156,7 @@ main {
   
   .lost__card-list-item {
     min-height: 450px;
+    flex-grow: 1;
 
   }
   
