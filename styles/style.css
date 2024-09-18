@@ -166,7 +166,7 @@ main {
   }
   
   .lost__card-list-item {
-    min-height: 450px;
+    min-height: 460px;
     flex-grow: 1;
     width: 430px;
   }
@@ -180,6 +180,10 @@ main {
     width: auto;
     height: 100%;
     padding: 50px 40px;
+    color: #FFF;
+    background-position: center;
+    background-size: cover;
+    background-color: #000000;
   }
   
   /* Карточки */
@@ -219,6 +223,7 @@ main {
   .card-link {
     display: block;
     height: 100%;
+    text-decoration: none;
   }
 
   .lots__look-more-link {
