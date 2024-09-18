@@ -205,6 +205,7 @@
 }
 
 .lots__item-wrapper {
+    background: url(../images/card-lot-01.jpg) no-repeat center/cover;
     list-style: none;
     width: 430px;
     height: 450px;
@@ -212,16 +213,13 @@
     flex-grow: 1;
     padding: 50px 40px;
     display: flex;
-    background-image: url(../images/card-lot-01.jpg);
 }
-
 .wrapper2 {
-    display: flex;
-    background-image: url(../images/card-lot-02.jpg);
+    background: url(../images/card-lot-02.jpg) no-repeat center/cover;
 }
 
 .wrapper3 {
-    background-image: url(../images/card-lot-03.jpg);
+    background: url(../images/card-lot-03.jpg) no-repeat center/cover;
 }
 
 .lots__item-link {
@@ -366,4 +364,12 @@
 .footer__socials-icon {
     width: 48px;
     height: 48px;
+}
+
+.overlay::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 1;
 }
