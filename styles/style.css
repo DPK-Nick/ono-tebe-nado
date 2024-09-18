@@ -73,7 +73,7 @@
 .cover {
     position: relative;
     margin: 0 auto 180px;
-    background: url("../../images/cover.jpg") center no-repeat;
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -212,6 +212,16 @@
     flex-grow: 1;
     padding: 50px 40px;
     display: flex;
+    background-image: url(../images/card-lot-01.jpg);
+}
+
+.wrapper2 {
+    display: flex;
+    background-image: url(../images/card-lot-02.jpg);
+}
+
+.wrapper3 {
+    background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__item-link {
@@ -310,6 +320,7 @@
     font-style: normal;
     line-height: normal;
 }
+
 
 .footer__address {
     font-size: 18px;
