@@ -3,11 +3,12 @@ main {
   flex-direction: column;
   gap: 183px;
 }
+
   /* Часть с хедом */
 
 .header {
   display: grid;
-  grid-template-columns: 1.51fr 2fr 1.5fr;
+  grid-template-columns: 1.5fr 2fr 1.5fr;
   align-items: center;
   padding: 92px 51px 89px;
 }
