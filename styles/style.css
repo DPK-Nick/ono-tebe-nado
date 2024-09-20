@@ -37,7 +37,7 @@ main {
   }
   
   .header__logo {
-    display: flex;
+    display: block;
     justify-self: center;
     align-self: center;
     width: 140px;
