@@ -8,9 +8,9 @@ main {
 
 .header {
   display: grid;
-  grid-template-columns: 1.5fr 2fr 1.5fr;
+  grid-template-columns: 2fr auto 2fr;
   align-items: center;
-  padding: 92px 51px 89px;
+  padding: 92px 50px 91px;
 }
 
 .header__links-list {
