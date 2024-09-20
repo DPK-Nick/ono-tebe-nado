@@ -273,7 +273,7 @@ main {
 }
 
 .about__title {
-  padding: 100px 0 104px;
+  padding: 50px 0 103px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -296,7 +296,7 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 130px 50px 80px;
+  padding: 180px 50px 80px;
 }
 
 .footer__social-icon {
