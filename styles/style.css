@@ -54,9 +54,6 @@ main {
   
   .address {
     font-style: inherit;
-  }
-  
-  .header__address {
     justify-self: end;
     font-style: inherit;
   }
@@ -128,7 +125,7 @@ main {
     /* Кнопочка-туда-сюда */
 
   .bet-button {
-    border: 1px #FFF solid;
+    border: 1px currentColor solid;
     padding: 14px 32px;
     color: #fff;
     font-family: 'Raleway', sans-serif;
@@ -191,15 +188,15 @@ main {
   
   /* Карточки */
 
-  .card_type_1 {
+  .card_type_film {
     background: url(../images/card-lot-01.jpg) no-repeat center/cover;
   }
   
-  .card_type_2 {
+  .card_type_book {
     background: url(../images/card-lot-02.jpg) no-repeat center/cover;
   }
   
-  .card_type_3 {
+  .card_type_paint {
     background: url(../images/card-lot-03.jpg) no-repeat center/cover;
   }
   
