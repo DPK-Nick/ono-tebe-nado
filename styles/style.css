@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 155px;
+  gap: 183px;
 }
 
   /* Часть с хедом */
@@ -151,7 +151,7 @@ main {
 }
  
 .lots__heading {
-  padding: 25px 35px 20px;
+  padding: 0 30px 28px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -159,7 +159,7 @@ main {
 }
 
 .lots__card-list {
-  height: 515px;
+  height: 100%;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   column-gap: 25px;
@@ -172,7 +172,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  padding-bottom: 30px;
   list-style: none;
 }
 
@@ -233,9 +232,8 @@ main {
 }
 
 .lots__look-more-link {
-  padding-top: 60px;
   display: block;
-  margin: 30px 0 0 40px;
+  margin: 5px 5px 0 35px;
   font-size: 20px;
   text-decoration-line: underline;
   text-underline-position: under;
@@ -264,6 +262,8 @@ main {
 }
 
 .about__logo {
+  padding-bottom: 55px;
+  margin-bottom: 265px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,7 +274,7 @@ main {
 }
 
 .about__title {
-  padding: 80px 0 106px;
+  padding: 50px 0 103px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -297,7 +297,7 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 0px;
+  padding: 180px 50px 80px;
 }
 
 .footer__social-icon {
