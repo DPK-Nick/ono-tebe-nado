@@ -164,6 +164,7 @@ main {
   grid-template-columns: 2fr 2fr 2fr;
   column-gap: 25px;
   list-style: none;
+  row-gap: 25px;
 }
 
 /* Я замучался с этим */
